@@ -7,6 +7,34 @@
   @include hide-for(medium);
 }
 
+.menu > li {
+	img {
+		width: rem-calc(200);
+	}
+	
+	> a {
+		color: $secondary-color;
+		font-weight: 600;
+		
+		padding: rem-calc(6) rem-calc(8);
+	}
+	
+	&:nth-last-of-type(4) {
+		border-left: 1px solid $secondary-color;
+		
+		> a {
+			padding-left: rem-calc(16);
+		}
+	}
+	
+	&:nth-last-of-type(5) {
+		> a {
+			padding-right: rem-calc(16);
+		}
+	}
+}
+
+/*
 // Mobile menu
 .off-canvas {
   > ul.menu {
@@ -119,3 +147,4 @@
 .nav-next {
   float:right;
 }
+*/
