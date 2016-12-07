@@ -57,20 +57,20 @@
 	
 	<div class="row">
 		<div class="medium-6 columns slide-element">
-			<img src="/wordpress/wp-content/themes/FoundationPress/assets/images/Spotlight_599x598/PA_Yogi_a.png" alt="Yogi" class="rp-visible">
-			<img src="/wordpress/wp-content/themes/FoundationPress/assets/images/Spotlight_599x598/PA_Yogi_b.png" alt="Yogi">
+			<img src="/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_Yogi_a.png" alt="Yogi" class="rp-visible">
+			<img src="/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_Yogi_b.png" alt="Yogi">
 		</div>
 		<div class="medium-6 columns slide-element">
-			<img src="/wordpress/wp-content/themes/FoundationPress/assets/images/Spotlight_599x598/PA_Onboarding_Assist_a.png" alt="Onboarding Assist" class="rp-visible">
-			<img src="/wordpress/wp-content/themes/FoundationPress/assets/images/Spotlight_599x598/PA_Onboarding_Assist_b.png" alt="Onboarding Assist">
+			<img src="/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_Onboarding_Assist_a.png" alt="Onboarding Assist" class="rp-visible">
+			<img src="/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_Onboarding_Assist_b.png" alt="Onboarding Assist">
 		</div>
 		<div class="medium-6 columns slide-element">
-			<img src="/wordpress/wp-content/themes/FoundationPress/assets/images/Spotlight_599x598/PA_BAM_a.png" alt="BAM" class="rp-visible">
-			<img src="/wordpress/wp-content/themes/FoundationPress/assets/images/Spotlight_599x598/PA_BAM_b.png" alt="BAM">
+			<img src="/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_BAM_a.png" alt="BAM" class="rp-visible">
+			<img src="/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_BAM_b.png" alt="BAM">
 		</div>
 		<div class="medium-6 columns slide-element">
-			<img src="/wordpress/wp-content/themes/FoundationPress/assets/images/Spotlight_599x598/PA_SmartSource_a.png" alt="Smart Source" class="rp-visible">
-			<img src="/wordpress/wp-content/themes/FoundationPress/assets/images/Spotlight_599x598/PA_SmartSource_b.png" alt="Smart Source">
+			<img src="/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_SmartSource_a.png" alt="Smart Source" class="rp-visible">
+			<img src="/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_SmartSource_b.png" alt="Smart Source">
 		</div>
 	</div>
  </div>
@@ -113,13 +113,13 @@
 	 </div>
 	 <div class="wt-row">
 		 <div class="medium-6 large-5 columns text-center">
-			 <img src="/wordpress/wp-content/themes/FoundationPress/assets/images/Rocket_icon.svg" alt="New Business" class="grow-element" style="height: 2.25rem">
+			 <img src="/wp-content/themes/popart/assets/images/Rocket_icon.svg" alt="New Business" class="grow-element" style="height: 2.25rem">
 			 <h4>New Business</h4>
 			 <span class="wt-phone">+1(503)347 4700</span>
 			 <a href="#">hello@popart.com</a>
 		 </div>
 		 <div class="medium-6 large-5 columns text-center">
-			 <img src="/wordpress/wp-content/themes/FoundationPress/assets/images/Star_icon.svg" alt="Join Our Team" class="grow-element" style="height: 2rem">
+			 <img src="/wp-content/themes/popart/assets/images/Star_icon.svg" alt="Join Our Team" class="grow-element" style="height: 2rem">
 			 <h4>Join Our Team</h4>
 			 <span class="wt-phone">+1(503)242 4292</span>
 			 <a href="#">career@popart.com</a>
