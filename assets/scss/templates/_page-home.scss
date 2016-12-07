@@ -116,7 +116,7 @@
 			}
 		}
 		
-		@include breakpoint(large) {
+		@include breakpoint(1200px) {
 			height: rem-calc(598);
 			
 			img {
