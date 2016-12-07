@@ -116,12 +116,12 @@
 			}
 		}
 		
-		@include breakpoint(1200px) {
-			height: rem-calc(598);
+		@include breakpoint(small only) {
+			height: 100vw;
 			
 			img {
-				height: rem-calc(598);
-				width: rem-calc(599);
+				height: 100vw;
+				width: calc(100vw - 2px);
 			}
 		}
 		
@@ -134,12 +134,12 @@
 			}
 		}
 		
-		@include breakpoint(small only) {
-			height: 100vw;
+		@include breakpoint(1200px) {
+			height: rem-calc(598);
 			
 			img {
-				height: 100vw;
-				width: calc(100vw - 2px);
+				height: rem-calc(598);
+				width: rem-calc(599);
 			}
 		}
 	}

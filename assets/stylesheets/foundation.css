@@ -7757,24 +7757,24 @@ body#tinymce {
     .home-recent-projects .columns img:nth-of-type(2) {
       top: 100%;
       z-index: -1; }
-  @media screen and (min-width: 75em) {
-    .home-recent-projects .columns {
-      height: 37.375rem; }
-      .home-recent-projects .columns img {
-        height: 37.375rem;
-        width: 37.4375rem; } }
-  @media screen and (min-width: 40em) {
-    .home-recent-projects .columns {
-      height: 50vw; }
-      .home-recent-projects .columns img {
-        height: 50vw;
-        width: calc(50vw - 2px); } }
   @media screen and (max-width: 39.9375em) {
     .home-recent-projects .columns {
       height: 100vw; }
       .home-recent-projects .columns img {
         height: 100vw;
         width: calc(100vw - 2px); } }
+  @media screen and (min-width: 40em) {
+    .home-recent-projects .columns {
+      height: 50vw; }
+      .home-recent-projects .columns img {
+        height: 50vw;
+        width: calc(50vw - 2px); } }
+  @media screen and (min-width: 75em) {
+    .home-recent-projects .columns {
+      height: 37.375rem; }
+      .home-recent-projects .columns img {
+        height: 37.375rem;
+        width: 37.4375rem; } }
 
 .home-twitter-feed {
   margin: 5rem auto;
