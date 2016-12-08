@@ -23,13 +23,19 @@
 		border-left: 1px solid $secondary-color;
 		
 		> a {
-			padding-left: rem-calc(16);
+			padding-left: 2rem;
+		}
+	}
+	
+	&:last-of-type(n+4) {
+		> a {
+			color: $medium-gray;
 		}
 	}
 	
 	&:nth-last-of-type(5) {
 		> a {
-			padding-right: rem-calc(16);
+			padding-right: 2rem;
 		}
 	}
 }
