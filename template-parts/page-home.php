@@ -115,13 +115,13 @@
 	 </div>
 	 <div class="wt-row">
 		 <div class="medium-6 large-5 columns text-center">
-			 <img src="/wordpress/wp-content/themes/popart/assets/images/Rocket_icon.svg" alt="New Business" class="parallax grow-element" style="height: 2.25rem">
+			 <img src="<?php echo get_template_directory_uri(); ?>assets/images/Rocket_icon.svg" alt="New Business" class="parallax grow-element" style="height: 2.25rem">
 			 <h4>New Business</h4>
 			 <span class="wt-phone">+1(503)347 4700</span>
 			 <a href="#">hello@popart.com</a>
 		 </div>
 		 <div class="medium-6 large-5 columns text-center">
-			 <img src="/wordpress/wp-content/themes/popart/assets/images/Star_icon.svg" alt="Join Our Team" class="parallax grow-element" style="height: 2rem">
+			 <img src="<?php echo get_template_directory_uri(); ?>assets/images/Star_icon.svg" alt="Join Our Team" class="parallax grow-element" style="height: 2rem">
 			 <h4>Join Our Team</h4>
 			 <span class="wt-phone">+1(503)242 4292</span>
 			 <a href="#">career@popart.com</a>
