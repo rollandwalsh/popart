@@ -7658,6 +7658,32 @@ body#tinymce {
 .container {
   position: relative; }
 
+.parallax.slide-element {
+  opacity: 0;
+  -webkit-transform: translateY(10%);
+      -ms-transform: translateY(10%);
+          transform: translateY(10%);
+  -webkit-transition: 700ms ease-in-out all;
+  transition: 700ms ease-in-out all; }
+  .parallax.slide-element.active {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0); }
+
+.parallax.grow-element {
+  -webkit-transform: scale(0) translatey(200%);
+      -ms-transform: scale(0) translatey(200%);
+          transform: scale(0) translatey(200%);
+  opacity: 0;
+  -webkit-transition: 2000ms cubic-bezier(0.25, 2, 0.58, 1) all;
+  transition: 2000ms cubic-bezier(0.25, 2, 0.58, 1) all; }
+  .parallax.grow-element.active {
+    -webkit-transform: scale(1.2) translateY(0);
+        -ms-transform: scale(1.2) translateY(0);
+            transform: scale(1.2) translateY(0);
+    opacity: 1; }
+
 .cta {
   background: #0099ff;
   border-top-right-radius: .25rem;
@@ -7677,6 +7703,14 @@ body#tinymce {
   .cta:hover {
     background-color: #0074c2;
     color: #fefefe; }
+
+#heroText > * {
+  opacity: 0;
+  -webkit-transform: translateY(25%);
+      -ms-transform: translateY(25%);
+          transform: translateY(25%);
+  -webkit-transition: 900ms ease-in-out all;
+  transition: 900ms ease-in-out all; }
 
 .home-video {
   color: #fefefe;
@@ -7772,10 +7806,12 @@ body#tinymce {
         width: 37.4375rem; } }
 
 .home-twitter-feed {
-  margin: 5rem auto;
+  background: #fefefe;
+  margin: 0 auto;
   max-width: 37.5rem;
-  padding: 0 .5rem;
-  width: 100%; }
+  padding: 5rem .5rem;
+  width: 100%;
+  z-index: 10; }
   .home-twitter-feed i {
     color: #0099ff;
     margin-bottom: .5rem; }
@@ -7823,14 +7859,8 @@ body#tinymce {
     @media screen and (min-width: 40em) {
       .home-work-together .medium-6:first-of-type {
         border-right: 1px solid #fefefe; } }
-    .home-work-together .medium-6:first-of-type img.grow {
-      height: 2.75rem !important; }
-    .home-work-together .medium-6 img.grow {
-      height: 2.4rem !important; }
   .home-work-together img {
-    margin-bottom: 2rem;
-    -webkit-transition: 600ms ease-in-out all;
-    transition: 600ms ease-in-out all; }
+    margin-bottom: 2rem; }
   .home-work-together h4 {
     font-size: 1.375rem;
     font-weight: 600;

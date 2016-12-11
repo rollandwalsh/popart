@@ -14,7 +14,7 @@
 		<div id="footer-container">
 			<footer id="footer">
 				<div class="large-12 columns" style="padding: 0 6px; margin-bottom: 2rem">
-					<img src="/wordpress/wp-content/themes/popart/assets/images/logo-white.svg" alt="Pop Art">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-white.svg" alt="Pop Art">
 				</div>
 				<div class="medium-6 large-3 columns">
 					<p>123 NE 3rd Ave<br>

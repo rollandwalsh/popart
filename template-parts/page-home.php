@@ -17,9 +17,9 @@
 	<section class="home-video">
 		<div class="home-video-color">
 			<div class="row">
-				<div class="large-12 columns" id="heroText" style="display: none;">
+				<div class="large-12 columns" id="heroText">
 					<h3>Behind Every Inefficiency, Opportunity.</h3>
-					<h5 style="opacity: 0;">At today's pace, even the most celebrated companies struggle to optimize<br>efficiencies. Assets may be in chaos. Legacy technology outdated.<br>New hire onboarding laborious and slow. That's where we come in.</h5>
+					<h5>At today's pace, even the most celebrated companies struggle to optimize<br>efficiencies. Assets may be in chaos. Legacy technology outdated.<br>New hire onboarding laborious and slow. That's where we come in.</h5>
 				</div>
 			</div>
 		</div>
@@ -27,7 +27,7 @@
 
  <?php get_template_part( 'template-parts/featured-image' ); ?>
 
- <div id="page-home" class="slide-element" role="main">
+ <div id="page-home" class="parallax slide-element" role="main">
 	 <div class="row">
 		 <?php do_action( 'foundationpress_before_content' ); ?>
 		 <?php while ( have_posts() ) : the_post(); ?>
@@ -58,28 +58,28 @@
 	</div>
 	
 	<div class="row">
-		<div class="medium-6 columns slide-element">
-			<img src="/wordpress/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_Yogi_a.png" alt="Yogi" class="rp-visible">
-			<img src="/wordpress/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_Yogi_b.png" alt="Yogi">
+		<div class="medium-6 columns parallax slide-element">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Spotlight_599x598/PA_Yogi_a.png" alt="Yogi" class="rp-visible">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Spotlight_599x598/PA_Yogi_b.png" alt="Yogi">
 		</div>
-		<div class="medium-6 columns slide-element">
-			<img src="/wordpress/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_Onboarding_Assist_a.png" alt="Onboarding Assist" class="rp-visible">
-			<img src="/wordpress/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_Onboarding_Assist_b.png" alt="Onboarding Assist">
+		<div class="medium-6 columns parallax slide-element">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Spotlight_599x598/PA_Onboarding_Assist_a.png" alt="Onboarding Assist" class="rp-visible">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Spotlight_599x598/PA_Onboarding_Assist_v.png" alt="Onboarding Assist">
 		</div>
-		<div class="medium-6 columns slide-element">
-			<img src="/wordpress/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_BAM_a.png" alt="BAM" class="rp-visible">
-			<img src="/wordpress/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_BAM_b.png" alt="BAM">
+		<div class="medium-6 columns parallax slide-element">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Spotlight_599x598/PA_BAM_a.png" alt="BAM" class="rp-visible">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Spotlight_599x598/PA_BAM_b.png" alt="BAM">
 		</div>
-		<div class="medium-6 columns slide-element">
-			<img src="/wordpress/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_SmartSource_a.png" alt="Smart Source" class="rp-visible">
-			<img src="/wordpress/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_SmartSource_b.png" alt="Smart Source">
+		<div class="medium-6 columns parallax slide-element">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Spotlight_599x598/PA_SmartSource_a.png" alt="Smart Source" class="rp-visible">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Spotlight_599x598/PA_SmartSource_b.png" alt="Smart Source">
 		</div>
 	</div>
  </div>
  
  <div class="home-twitter-feed" id="twitterFeed">
-	 <div class="text-center">
-		 <i class="fa fa-2x fa-twitter slide-element"></i>
+	 <div class="text-center parallax slide-element">
+		 <i class="fa fa-2x fa-twitter"></i>
 	 </div>
 
 	 <div id="twitterSlick"> 
@@ -106,22 +106,22 @@
 	 </div>
  </div>
  
- <div class="home-work-together slide-element">
+ <div class="home-work-together parallax slide-element">
 	 <div class="wt-row">
 		 <div class="medium-9 large-7 columns text-center">
-			 <h3 class="slide-element">Let's Work Together</h3>
-			 <h5 class="slide-element">Let's talk. Better yet, meet. Tell us your pain points. Show us your wish lists. It's likely we've wrestled with challenges similar enough to give us both a running start. Collaboration conquers all.</h5>
+			 <h3 class="parallax slide-element">Let's Work Together</h3>
+			 <h5 class="parallax slide-element">Let's talk. Better yet, meet. Tell us your pain points. Show us your wish lists. It's likely we've wrestled with challenges similar enough to give us both a running start. Collaboration conquers all.</h5>
 		 </div>
 	 </div>
 	 <div class="wt-row">
 		 <div class="medium-6 large-5 columns text-center">
-			 <img src="/wordpress/wp-content/themes/popart/assets/images/Rocket_icon.svg" alt="New Business" class="grow-element" style="height: 1.75rem">
+			 <img src="/wordpress/wp-content/themes/popart/assets/images/Rocket_icon.svg" alt="New Business" class="parallax grow-element" style="height: 2.25rem">
 			 <h4>New Business</h4>
 			 <span class="wt-phone">+1(503)347 4700</span>
 			 <a href="#">hello@popart.com</a>
 		 </div>
 		 <div class="medium-6 large-5 columns text-center">
-			 <img src="/wordpress/wp-content/themes/popart/assets/images/Star_icon.svg" alt="Join Our Team" class="grow-element" style="height: 1.4rem">
+			 <img src="/wordpress/wp-content/themes/popart/assets/images/Star_icon.svg" alt="Join Our Team" class="parallax grow-element" style="height: 2rem">
 			 <h4>Join Our Team</h4>
 			 <span class="wt-phone">+1(503)242 4292</span>
 			 <a href="#">career@popart.com</a>
@@ -130,56 +130,55 @@
  </div>
  
  <script>
-	$(document).ready(function(){
-		$('#heroText').delay( 1250 ).fadeIn( 750 );
-		$('#heroText h5').delay( 2500 ).fadeIn( 750, function() {
-     $(this).fadeTo( "slow", 1 );
-    })
+// 	 HERO TEXT FADE IN
+	 function heroTextFadeIn() {
+		 const heroText = document.querySelector('#heroText h3');
+		 heroText.style.opacity = '1';
+		 heroText.style.transform = 'translateY(0)';
+	 }
+	 function heroSubTextFadeIn() {
+		 const heroSubText = document.querySelector('#heroText h5');
+		 heroSubText.style.opacity = '1';
+		 heroSubText.style.transform = 'translateY(0)';
+	 }
+	 
+	 window.setTimeout(heroTextFadeIn, 1000);
+	 window.setTimeout(heroSubTextFadeIn, 2000);
+	
+// 	 PARALLAX
+
+	function debounce(func, wait = 20, immediate = true) {
+		var timeout;
+		return function() {
+			var context = this, args = arguments;
+			clearTimeout(timeout);
+			timeout = setTimeout(function() {
+				timeout = null;
+				if (!immediate) func.apply(context, args);
+			}, wait);
+				if (immediate && !timeout) func.apply(context, args);
+		};
+	};
+	
+	const sliderElements = document.querySelectorAll('.parallax');
+	
+	function checkSlide() {
+		sliderElements.forEach(sliderElement => {
+			const slideInAt = (window.scrollY + window.innerHeight) - (sliderElement.offsetHeight / 3);
+			const elementBottom = sliderElement.offsetTop + sliderElement.offsetHeight;
+			const isThirdShown = slideInAt > sliderElement.offsetTop;
+			const isNotScrolledPast = window.scrollY < elementBottom;
+			console.log(slideInAt);
+			if (isThirdShown && isNotScrolledPast) {
+				sliderElement.classList.add('active');
+			} else {
+				sliderElement.classList.remove('active');
+			}
+		});
+	}
+	
+	window.addEventListener('scroll', checkSlide);
 		
-	  $('#twitterSlick').slick({
-		  dots: true,
-		  autoplay: true,
-		  autoplaySpeed: 4500,
-		  speed: 1500
-	  });
-	});
-	
-	(function($) {
-	  $.fn.visible = function(partial) {
-	    
-	      var $t            = $(this),
-	          $w            = $(window),
-	          viewTop       = $w.scrollTop(),
-	          viewBottom    = viewTop + $w.height(),
-	          _top          = $t.offset().top,
-	          _bottom       = _top + $t.height(),
-	          compareTop    = partial === true ? _bottom : _top,
-	          compareBottom = partial === true ? _top : _bottom;
-	    
-	    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
-	
-	  };
-	    
-	})(jQuery);
-	
-	$(window).scroll(function(event) {
-	  
-	  $(".slide-element").each(function(i, el) {
-	    var el = $(el);
-	    if (el.visible(true)) {
-	      el.addClass("animated slideInUp"); 
-	    }
-	  });
-	  
-	  $(".grow-element").each(function(i, el) {
-	    var el = $(el);
-	    if (el.visible(true)) {
-	      el.addClass("grow animated tada"); 
-	    }
-	  });
-	  
-	});
-	
 	$(window).scroll(function() {
 	   var hT = $('#twitterFeed').offset().top,
 	       hH = $('#twitterFeed').outerHeight(),
@@ -190,6 +189,16 @@
 	   } else {
 		   $('#homeCTA').fadeIn(750);
 	   }
+	});
+
+// 	 SLIDER
+	$(document).ready(function(){
+	  $('#twitterSlick').slick({
+		  dots: true,
+		  autoplay: true,
+		  autoplaySpeed: 4500,
+		  speed: 1500
+	  });
 	});
  </script>
 
